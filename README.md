@@ -15,4 +15,5 @@ central Africa exchange ideas, experiences and opportunities in IT and business.
 ## Join the community
 
 👉 [Slack](https://join.slack.com/t/congo-developper-club/shared_invite/enQtNzUwOTAxODYyNjEwLTUyMDA4NGNhM2I0MjFmODlmZDNmOWU3ODBkZWNhZmIwYTJjM2JjYWYxNzc4MTZkYzI0ZmZkOTUwNTI1NDc1MWM)
+
 👉 [Telegram](https://t.me/joinchat/OR1D71XKGid7XmuHGD5I8A)
