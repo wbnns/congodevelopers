@@ -1,0 +1,80 @@
+# Jekyll - Settings
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.*']
+sass:
+    style: expanded
+
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: Congo Developers Club
+#subtitle:
+subtitle: The Congo Developers Club is an online place where developers across Congo and Central Africa can exchange ideas, experiences and opportunities in the field of computer science and personal / professional development.
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title: Congo Developers Club
+
+# Information for web crawlers / Google, all of them optional
+# 'description' sets the corresponding meta tag,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: The Congo Developers Club is an online place where developers across Congo and Central Africa can exchange ideas, experiences and opportunities in the field of computer science and personal / professional development.
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://congo-developers-club.onrender.com/
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+#baseurl: ''
+baseurl: ''
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+avatar: "images/cdc.png"
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - telegram:
+      name: Telegram
+      show: true
+      href: https://t.me/joinchat/OR1D71XKGid7XmuHGD5I8A
+      icon: fab fa-telegram
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/congoclub/
+      icon: fab fa-github
+  - github:
+      name: Slack
+      show: true
+      href: https://join.slack.com/t/congo-developper-club/shared_invite/enQtNzUwOTAxODYyNjEwLTUyMDA4NGNhM2I0MjFmODlmZDNmOWU3ODBkZWNhZmIwYTJjM2JjYWYxNzc4MTZkYzI0ZmZkOTUwNTI1NDc1MWM
+      icon: fab fa-slack
+  - linkedin:
+      name: LinkedIn
+      show: true
+      href: https://www.linkedin.com/company/congo-developers-club
+      icon: fab fa-linkedin
+  - twitter:
+      name: Twitter
+      show: true
+      href: https://twitter.com/CongoClub
+      icon: fab fa-twitter
+  - facebook:
+      name: Facebook
+      show: true
+      href: https://www.facebook.com/congoclub
+      icon: fab fa-facebook
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+#extra_html:
+extra_html: >
+    Let's connect.
+
+#EOF
