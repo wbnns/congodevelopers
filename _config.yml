@@ -25,13 +25,12 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://congoclub.github.io/cdc_site/
+url: https://congodevelopers.com/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
-#baseurl: ''
-baseurl: '/cdc_site'
+baseurl: ''
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
